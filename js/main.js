@@ -15,4 +15,10 @@
     modal.classList.add('hidden');
     mask.classList.add('hidden');
   });
+
+  mask.addEventListener('click', () => {
+    // modal.classList.add('hidden');
+    // mask.classList.add('hidden');
+    close.click();
+  });
 }
